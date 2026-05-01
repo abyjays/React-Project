@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, useNavigate, Navigate } from "react-router-dom";
-#test
+
 function AdminNavbar() {
   const navigate = useNavigate();
   const role = localStorage.getItem("Role");
